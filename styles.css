@@ -3,3 +3,15 @@
 body {
     font-family: 'Merriweather', serif;
 }
+
+.container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* container is used for navs */
