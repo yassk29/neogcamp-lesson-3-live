@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+:root {
+    --primary-color: orange;
+}
 
 body {
     font-family: 'Merriweather', serif;
 }
+
+/* container is used for navs */
 
 .container-fluid {
     padding-left: 1rem;
@@ -14,4 +19,20 @@ body {
     margin: auto;
 }
 
-/* container is used for navs */
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    color: black;
+    border-radius: 0.5rem;
+}
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/* look into BEM naming convention for CSS */
