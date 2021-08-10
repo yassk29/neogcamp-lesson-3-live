@@ -7,6 +7,9 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+hr {
+    margin: 2rem 0rem;
+}
 /* container is used for navs */
 
 .container-fluid {
@@ -18,6 +21,8 @@ body {
     max-width: 600px;
     margin: auto;
 }
+
+/* links */
 
 .link {
     text-decoration: none;
