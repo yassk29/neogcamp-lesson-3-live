@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Merriweather', serif;
-    margin: 0px;
+    margin: 0px; 
 }
 
 hr {
@@ -111,11 +111,16 @@ hr {
 
 .section h3 {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .ow {
     background-color: var(--off-white);
+    padding: 2rem;
+}
+
+.w {
+    padding: 2rem;
 }
 
 .footer {
@@ -131,4 +136,9 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
