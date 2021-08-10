@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Merriweather', serif;
+    margin: 0px;
 }
 
 hr {
@@ -115,4 +116,19 @@ hr {
 
 .ow {
     background-color: var(--off-white);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }
