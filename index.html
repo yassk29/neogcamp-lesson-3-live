@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,11 @@
     <title>Component Library</title>
     <link href="styles.css" rel="stylesheet" />
 </head>
+
 <body>
     <h1>Yassk's component library</h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
+    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
+    </p>
 
     <hr>
 
@@ -18,7 +21,7 @@
     <h2>This is the second biggest</h2>
     <p>Let me show youthe normal text. This is free flowing and will wrap at the end like a paragraph.</p>
     <p>This paragraph have a <strong>Bold</strong> text.</p>
-    <small class="para"yassk>This is relatively smaller text.</small>
+    <small class="para" yassk>This is relatively smaller text.</small>
 
     <hr>
 
@@ -27,7 +30,7 @@
 
     <div class="container container-fluid">This is a fluid container and it will go till the end of the page</div>
 
-    <h2>center container</h2> 
+    <h2>center container</h2>
     <div class="container container-center">This is a centered container and it will go till the specified width</div>
     <hr>
     <h2>@links</h2>
@@ -81,21 +84,25 @@
     <h2>@Header</h2>
     <header class="hero">
         <img class="hero-img" src="images/hero.svg" alt="">
-        <h1 class="hero-heading" >Heading inside <span class="heading-inverted">Hero</span></h1>
+        <h1 class="hero-heading">Heading inside <span class="heading-inverted">Hero</span></h1>
     </header>
     <hr>
 
     <h2>@section</h2>
-    
-    <section>
-        <h3>White section</h3>
-    <p>This will have white background</p>
+
+    <section class="section">
+        <div class="container container-center">
+            <h3>White section</h3>
+            <p>This will have white background</p>
+        </div>
     </section>
 
-    <section>
-        <h3>off white section</h3>
-        <p>This will have gray background</p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h3>off white section</h3>
+            <p>This will have gray background</p>
     </section>
+    </div>
 
     <hr>
     <h2>@footer</h2>
@@ -113,4 +120,5 @@
 
     <div style="height: 30vh;"></div>
 </body>
+
 </html>

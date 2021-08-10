@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
 :root {
     --primary-color: orange;
-    --dark-gray: #4B5563 ;
+    --dark-gray: #4B5563;
+    --off-white: #F3F4F6;
 }
 
 body {
@@ -11,6 +13,7 @@ body {
 hr {
     margin: 2rem 0rem;
 }
+
 /* container is used for navs */
 
 .container-fluid {
@@ -35,6 +38,7 @@ hr {
     color: black;
     border-radius: 0.5rem;
 }
+
 .secondary-link {
     color: var(--primary-color);
     border-radius: 0.5rem;
@@ -59,7 +63,7 @@ hr {
     background-color: var(--primary-color);
     color: black;
     padding: 1rem;
-    border-bottom-right-radius: 1rem ;
+    border-bottom-right-radius: 1rem;
 }
 
 .navigation .nav-brand {
@@ -93,11 +97,22 @@ hr {
 }
 
 .hero .hero-heading {
-    padding-top: 1rem ;
+    padding-top: 1rem;
     font-size: 2rem;
     color: var(--dark-gray);
 }
 
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
+}
+
+/* sections */
+
+.section h3 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.ow {
+    background-color: var(--off-white);
 }
