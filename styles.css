@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
 
 :root {
     --primary-color: orange;
@@ -141,4 +141,8 @@ hr {
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
+}
+
+.tag-img {
+    width: 25rem;
 }
